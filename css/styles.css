@@ -1,0 +1,54 @@
+.secA {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  padding: 3%;
+  background-image: url(../images/assets/backgrounds/landing.jpg);
+  margin-left: -8%;
+  margin-right: -8%;
+}
+.secB {
+  margin-left: -8%;
+  margin-right: -8%;
+}
+
+#happyhour {
+  font-size: 35px;
+  background-color: lightgrey;
+  color: black;
+  padding: 11%;
+  margin-bottom: 0%;
+}
+#partytime {
+  font-size: 35px;
+  background-color: orange;
+  color: white;
+  padding: 11%;
+  }
+#breakfast {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 22%;
+  background-image: url(../images/assets/foodtop/breakfast.jpg);
+}
+#lunch {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 33%;
+  background-image: url(../images/assets/foodtop/lunch.jpg);
+}
+#dinner {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 32%;
+  background-image: url(../images/assets/foodtop/dinner.jpg);
+}
+.col-md-3 {
+padding: 0%;
+}
+.secD {
+
+}
