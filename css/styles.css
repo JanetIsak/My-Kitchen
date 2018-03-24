@@ -1,54 +1,97 @@
 .secA {
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Dancing Script', cursive;
   color: white;
   padding: 3%;
   background-image: url(../images/assets/backgrounds/landing.jpg);
-  margin-left: -8%;
-  margin-right: -8%;
+  margin-left: -10%;
+  margin-right: -10%;
 }
 .secB {
-  margin-left: -8%;
-  margin-right: -8%;
+  margin-left: -10%;
+  margin-right: -10%;
 }
 
 #happyhour {
-  font-size: 35px;
+  font-size: 20px;
   background-color: lightgrey;
   color: black;
   padding: 11%;
   margin-bottom: 0%;
 }
 #partytime {
-  font-size: 35px;
+  font-size: 20px;
   background-color: orange;
   color: white;
   padding: 11%;
   }
 #breakfast {
   font-size: 40px;
+  font-family: 'Great Vibes', cursive;
   color: white;
   text-align: center;
   padding: 22%;
+  opacity: 1;
+  cursor: pointer;
   background-image: url(../images/assets/foodtop/breakfast.jpg);
 }
+#breakfast:hover {
+  color: black;
+  opacity: 0.9;
+  filter: alpha(opacity=70);
+}
+
 #lunch {
   font-size: 40px;
+  font-family: 'Great Vibes', cursive;
   color: white;
   text-align: center;
-  padding: 33%;
+  padding: 22%;
+  opacity: 1;
+  cursor: pointer;
   background-image: url(../images/assets/foodtop/lunch.jpg);
+}
+#lunch:hover {
+  color: black;
+  opacity: 0.9;
+  filter: alpha(opacity=70);
 }
 #dinner {
   font-size: 40px;
+  font-family: 'Great Vibes', cursive;
   color: white;
   text-align: center;
-  padding: 32%;
+  padding: 22%;
+  opacity: 1;
+  cursor: pointer;
   background-image: url(../images/assets/foodtop/dinner.jpg);
+}
+#dinner:hover {
+  color: black;
+  opacity: 0.9;
+  filter: alpha(opacity=70);
 }
 .col-md-3 {
 padding: 0%;
 }
-.secD {
+.secC {
+  margin-bottom: 55%;
+  margin-top: 10%
+}
 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#drinks2{
+  float:left;
 }
