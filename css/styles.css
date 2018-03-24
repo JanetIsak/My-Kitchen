@@ -5,7 +5,7 @@
   padding: 3%;
   background-image: url(../images/assets/backgrounds/landing.jpg);
   margin-left: -10%;
-  margin-right: -10%;
+  margin-right: -13%;
 }
 .secB {
   margin-left: -10%;
@@ -129,13 +129,12 @@ padding: 0%;
   box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.14);
 }
 .secD {
-  margin-bottom: 10%;
-  margin-top: 10%
+  margin-bottom: 5%;
 }
 .secE {
   background-image: url(../images/assets/backgrounds/foodsBg.jpg);
   margin-left: -10%;
-  margin-right: -10%;
+  margin-right: -13%;
   margin-bottom: 10%;
   padding: 7%
 }
@@ -161,10 +160,7 @@ padding: 15px;
   background-color: lightgrey;
   font-family: 'Alegreya', serif;
 }
-.secF {
-  margin-bottom: 10%;
-  margin-top: 10%
-}
+
 #happycustomers {
   margin: 0%;
   margin-left: -1%;
@@ -195,4 +191,65 @@ h6 {
   color: #F15A29;
   font-family: 'Alegreya', serif;
   font-size: 25px;
+}
+.secG {
+  margin-left: -10%;
+  margin-right: -13%;
+  background-image: url(../images/assets/backgrounds/subscribe.jpg);
+  padding: 10%;
+  text-align: center;
+  color: white;
+}
+#info2 {
+  padding-left: 35%;
+  padding-right: 33%;
+  font-style: oblique;
+}
+#info1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+.secH {
+  text-align: center;
+  color: white;
+  margin-left: -15%;
+  margin-right: -15%;
+  padding-top: 5%;
+  background-color: #F15A29;
+  font-family: 'Alegreya', serif;
+  padding-left: 47%;
+  padding-right: 47%;
+  padding-bottom: 0%;
+}
+#logo-menu {
+  padding-left: 30%;
+  margin-right: 35%;
+  margin-bottom: 0%;
+}
+#lasttitle {
+  font-size: 40px;
+  padding-bottom: 50%;
+}
+#menu {
+  background-color: inherit;
+  color: white;
+  margin-right: -10%;
+  margin-top: -7%;
+}
+
+#description {
+  font-size: 23px;
+  margin-bottom: 7%;
+  margin-top: 0%;
+}
+#yrpubl {
+  padding: 10%;
+  font-size: 17px;
+}
+#massmedialink {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1%;
+  background-color: #F15A29;
 }
