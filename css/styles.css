@@ -135,7 +135,7 @@ padding: 0%;
   background-image: url(../images/assets/backgrounds/foodsBg.jpg);
   margin-left: -10%;
   margin-right: -13%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   padding: 7%
 }
 .panel-body {
@@ -160,7 +160,9 @@ padding: 15px;
   background-color: lightgrey;
   font-family: 'Alegreya', serif;
 }
-
+.secF {
+  margin-bottom: 3%;
+}
 #happycustomers {
   margin: 0%;
   margin-left: -1%;
@@ -231,11 +233,12 @@ h6 {
   font-size: 40px;
   padding-bottom: 50%;
 }
-#menu {
+#menu2 {
   background-color: inherit;
   color: white;
   margin-right: -10%;
   margin-top: -7%;
+  padding-bottom: 10%;
 }
 
 #description {
