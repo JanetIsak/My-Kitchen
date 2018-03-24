@@ -13,17 +13,21 @@
 }
 
 #happyhour {
-  font-size: 20px;
+  font-size: 23px;
+  font-family: 'Alegreya', serif;
+  text-align: center;
   background-color: lightgrey;
   color: black;
   padding: 11%;
   margin-bottom: 0%;
 }
 #partytime {
-  font-size: 20px;
-  background-color: orange;
+  font-size: 23px;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  background-color: #F15A29;
   color: white;
-  padding: 11%;
+  padding: 10%;
   }
 #breakfast {
   font-size: 40px;
@@ -78,20 +82,96 @@ padding: 0%;
   margin-bottom: 55%;
   margin-top: 10%
 }
-
-
+#fastfoodimg {
+  padding: 10px;
+  padding-right: 3px;
+  margin-left: -4%;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
 }
+#fastfooddescrp {
+  font-size: '25px';
+  text-align: left;
+  margin-left: 8%;
+  margin-right: -5%;
+  font-family: 'Alegreya', serif;
+}
+#button1 {
+  border-style: solid;
+  background-color: white;
+  color: #F15A29;
+  border-color: #F15A29;
+  padding: 2%;
+}
+#drinksdescrp {
+  font-size: '25px';
+  text-align: right;
+  margin-left: -5%;
+  margin-right: 4%;
+  font-family: 'Alegreya', serif;
+}
+#title {
+  font-size: 35px;
+}
+#subtitle {
+  font-size: 20px;
+}
+#button2 {
+  border-style: solid;
+  background-color: white;
+  color: #F15A29;
+  border-color: #F15A29;
+  padding: 2%;
+}
+#drinksimg {
+  padding: 10px;
+  padding-left: : 3px;
+  margin-left: : -4%;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.14);
+}
+.secD {
+  margin-bottom: 10%;
+  margin-top: 10%
+}
+.secE {
+  background-image: url(../images/assets/backgrounds/foodsBg.jpg);
+  margin-left: -10%;
+  margin-right: -10%;
+  margin-bottom: 10%;
+  padding: 7%
+}
+.panel-body {
+padding: 15px;
+}
+#foodnames {
+  color: #F15A29;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+#pic {
+  padding: 7%;
+  padding-left: 20%;
+  padding-right: 5%;
+  cursor: pointer;
+}
+.col-md-4 {
+  margin: -1%;
+}
+#menu {
+  color: black;
+  background-color: lightgrey;
+  font-family: 'Alegreya', serif;
+}
+.secF {
+  margin-bottom: 10%;
+  margin-top: 10%
+}
+#happycustomers {
+  margin: -8%;
+  text-align: center;
+  padding: 20px;
+}
+#aboutmenu {
+  margin: 15%;
+  padding: 20px;
 
-
-
-
-
-
-
-
-
-
-
-#drinks2{
-  float:left;
 }

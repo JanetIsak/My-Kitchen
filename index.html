@@ -6,6 +6,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Cinzel|Great+Vibes" rel="stylesheet">
     <title>My-Kitchen</title>
   </head>
   <body>
@@ -22,8 +23,8 @@
           <div class="row">
 
            <div class="col-md-3">
-            <p id="happyhour">Happy Hour</p>
-            <p id="partytime">Party Time</p>
+            <p id="happyhour"><strong>Happy Hour</strong></p>
+            <p id="partytime"><strong>Party Time</strong></p>
            </div>
 
            <div class="col-md-3">
@@ -40,72 +41,83 @@
          </div>
       </div>
 
-      <div class="secC">
-        <div clas="row">
-          <div class="col-md-6">
-            <img src="images/assets/fastFood1.jpg">
-            <img src="images/assets/fastFood2.jpg">
-          </div>
-          <div class="col-md-6">
-            <h2>Fast Food</h2>
-            <h3>You'll love our delicious fast food</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <button>VIEW GALLERY &rarr;</button>
-          </div>
+    <div class="secC">
+      <div clas="row">
+        <div class="col-md-6" id="fastfoodimg">
+          <img src="images/assets/fastFood1.jpg">
+          <img src="images/assets/fastFood2.jpg">
+        </div>
+        <div class="col-md-6" id="fastfooddescrp">
+          <h2 id="title"><strong>Fast Food</strong></h2>
+          <h3 id="subtitle"><strong>You'll love our delicious fast food</strong></h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <button id="button1">VIEW GALLERY &rarr;</button>
         </div>
       </div>
+    </div>
 
       <div class="secD">
         <div class="row">
-          <div class="col-md-6">
-            <h4>Drinks</h4>
-            <h5>We also produce delicious drinks</h5>
+          <div class="col-md-6" id="drinksdescrp">
+            <h4 id="title"><strong>Drinks</strong></h4>
+            <h5 id="subtitle"><strong>We also produce delicious drinks</strong></h5>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <button>VIEW GALLERY &rarr;</button>
+            <button id="button2"><b>VIEW GALLERY &rarr;</b></button>
           </div>
-          <div class="col-md-6">
-            <img src="images/assets/drink1.jpg">
+          <div class="col-md-6" id="drinksimg">
+            <img id="drink1" src="images/assets/drink1.jpg">
             <img id="drinks2" src="images/assets/drink2.jpg">
           </div>
         </div>
       </div>
 
-      <div class="secE">
-        <div class="row">
-            <div class="col-md-3">
-              <button>FastFood</button>
-            </div>
-            <div class="col-md-3">
-              <button>Drinks</button>
-            </div>
-            <div class="col-md-3">
-              <button>Chicken</button>
-            </div>
-            <div class="col-md-3">
-              <button>Rice</button>
-            </div>
-          </div>
-        <div class="row">
+    <div class="secE">
+      <div class="panel panel-default">
+        <div class="panel-header">
+          <ul class="nav nav-tabs nav-justified"id="menu">
+            <li class="active"><a href="#"><b>Fast Food</b></a></li>
+            <li><a href="#"><b>Drinks</b></a></li>
+            <li><a href="#"><b>Chicken</b></a></li>
+            <li><a href="#"><b>Rice</b></a></li>
+          </ul>
+        </div>
+      <div class="row">
+        <div class="panel-body">
           <div class="col-md-4">
-            <img src="images/assets/fastfood/chickenBurger.jpg">
-          </div>
-          <div clas="col-md-4">
-            <img src="images/assets/fastfood/beefBurger.jpg">
+            <img id="pic" src="images/assets/fastfood/chickenBurger.jpg">
+            <p id="foodnames">Cheese Burger</p>
           </div>
           <div class="col-md-4">
-            <img src="images/assets/fastfood/chickenPizza.jpg">
+            <img id="pic" src="images/assets/fastfood/beefBurger.jpg">
+            <p id="foodnames">Beef Burger</p>
+          </div>
+          <div class="col-md-4">
+            <img id="pic" src="images/assets/fastfood/chickenPizza.jpg">
+            <p id="foodnames">Chicken Pizza</p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="secF">
-        <div class="F1">
+    <div class="secF">
+      <div class="row">
+        <div class="col-md-6" id="happycustomers">
           <h6>Our Happy Customers</h6>
-          <h1 "id=1">George Richard</h1>
+          <h1>George Richard</h1>
           <p>Great food! Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them!</p>
-          <NAVIGATE>
+            <div class="col-md-4">
+              <img src="images/assets/customers/p1.png">
+            </div>
+            <div class="col-md-4">
+              <img src="images/assets/customers/p2.png">
+            </div>
+            <div class="col-md-4">
+              <img src="images/assets/customers/p3.png">
+            </div>
+          </div>
         </div>
-        <div class="F2">
+        <div class="col-md-6" id="aboutmenu">
           <h2>About Menu</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
