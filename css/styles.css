@@ -9,7 +9,7 @@
 }
 .secB {
   margin-left: -10%;
-  margin-right: -10%;
+  margin-right: -13%;
 }
 
 #happyhour {
@@ -160,6 +160,9 @@ padding: 15px;
   background-color: lightgrey;
   font-family: 'Alegreya', serif;
 }
+#fastfood {
+  color: #F15A29;
+}
 .secF {
   margin-bottom: 3%;
 }
@@ -261,4 +264,9 @@ h6 {
 }
 .glyphicon glyphicon-chevron-right {
   color: #F15A29;
+}
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 768px) {
 }
