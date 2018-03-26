@@ -1,3 +1,2 @@
 $(document).ready(function) {
-  $(".nav nav-tabs").click(function) {
-});
+  $("#form").submit(function(event) {

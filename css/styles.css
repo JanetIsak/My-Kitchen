@@ -199,7 +199,7 @@ h6 {
 }
 .secG {
   margin-left: -10%;
-  margin-right: -13%;
+  margin-right: -15%;
   background-image: url(../images/assets/backgrounds/subscribe.jpg);
   padding: 10%;
   text-align: center;
@@ -210,6 +210,14 @@ h6 {
   padding-right: 33%;
   font-style: oblique;
 }
+#email {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+#submit {
+  background-color: #F15A29;
+}
+
 #info1 {
   text-align: center;
   font-size: 20px;
@@ -259,12 +267,30 @@ h6 {
   padding-top: 1%;
   background-color: #F15A29;
 }
-.glyphicon glyphicon-chevron-left {
+.left-arrow {
+  color: #F15A29;
+  float: left;
+  padding-top: 115px;
+  padding-left: 5px;
+}
+.right-arrow {
+  color: #F15A29;
+  float: right;
+  padding-top: 115px;
+  padding-right: 40px;
+}
+.left-arrow2 {
   color: #F15A29;
 }
-.glyphicon glyphicon-chevron-right {
+.right-arrow2 {
   color: #F15A29;
 }
+
+
+
+
+
+
 @media screen and (min-width: 480px) {
 
 }
