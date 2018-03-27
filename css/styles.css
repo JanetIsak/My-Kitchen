@@ -147,8 +147,8 @@ padding: 15px;
   text-align: center;
 }
 #pic {
-  padding: 11%;
-  padding-left: 18%;
+  padding: 8%;
+  padding-left: 15%;
   padding-right: 5%;
   cursor: pointer;
 }
@@ -209,6 +209,7 @@ h6 {
   padding-left: 35%;
   padding-right: 33%;
   font-style: oblique;
+  color: white;
 }
 #info1 {
   text-align: center;
@@ -259,14 +260,24 @@ h6 {
   padding-top: 1%;
   background-color: #F15A29;
 }
-.glyphicon glyphicon-chevron-left {
+.left-arrow{
+  color: #F15A29;
+  padding-top: 41px;
+}
+.right-arrow {
   color: #F15A29;
 }
-.glyphicon glyphicon-chevron-right {
+.left-arrow2 {
   color: #F15A29;
 }
-@media screen and (min-width: 480px) {
-
+.right-arrow2 {
+  color: #F15A29;
 }
-@media screen and (min-width: 768px) {
+#input {
+  opacity: 0.6;
+}
+#submit {
+  border-style: inset;
+  color: white;
+  padding-right: 3%;
 }
