@@ -1,3 +1,9 @@
+.navbar {
+  float: left;
+}
+
+
+
 .secA {
   text-align: center;
   font-family: 'Dancing Script', cursive;
@@ -207,9 +213,9 @@ h6 {
 }
 #info2 {
   padding-left: 35%;
-  padding-right: 33%;
+  padding-right: 25%;
   font-style: oblique;
-  color: white;
+  color: black;
 }
 #info1 {
   text-align: center;
@@ -277,7 +283,7 @@ h6 {
   opacity: 0.6;
 }
 #submit {
-  border-style: inset;
-  color: white;
+  background: #F15A29;
   padding-right: 3%;
+  color: white;
 }
